@@ -1,0 +1,42 @@
+.gradient-background {
+    background: linear-gradient(300deg, #0f0f0f, #787878, #e6e6e6);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.skills{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg-box{
+  background-color: #787878;
+  background: #787878; /* For browsers that do not support gradients */
+}
+
+.mail{
+  text-decoration: none;
+}
+.dotted {
+  border: dotted #000000 ;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+  margin-top: 20px;
+  margin-bottom:  20px;
+}
+
+.text-light{
+  color: #b3b0b0 !important;
+}
